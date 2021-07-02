@@ -73,15 +73,104 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+    <h2 id="3년차-machine-learning-engineer입니다">3년차 Machine Learning Engineer입니다!</h2>
+<ol>
+  <li>현재 Computer Vision(Object Detection, Tracking)분야에서 딥러닝 모델 설계 및 개발하고 있습니다.</li>
+  <li>딥러닝 모델 개발은 주로 Tensorflow를 사용했으나, 최근에는 Pytorch를 사용하고 있습니다.</li>
+  <li>Learning Curve 향상에 관심이 많고, 백엔드 쪽으로도 관심이 생겨 공부하고 있습니다!</li>
+  <li>주 언어는 Python이고, 비동기 처리/동시성 확보 등 효율적이고 clean한 코드 작성하는데 항상 고민합니다:)</li>
+</ol>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>a blogging platform that natively supports Jupyter notebooks in addition to other formats. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<h2 id="주요-연구프로젝트-수행이력">주요 연구/프로젝트 수행이력</h2>
+<h3 id="202101ingtarget의-동선을-추적하기-위한-객체-추적-기술-개발-업무">[2021.01~ing]Target의 동선을 추적하기 위한 객체 추적 기술 개발 업무</h3>
+<ol>
+  <li>아이디어
+    <ul>
+      <li>실종인원 수색의 효율성 증대를 위한 딥러닝 모델 도입(이동 경로 자동 추적)</li>
+    </ul>
+  </li>
+  <li>개발 내용
+    <ul>
+      <li>다중 영상 내 타겟의 이동경로를 자동으로 추적하는 기능 개발</li>
+      <li>실종인원의 특징과 자동으로 비교하는 기능 설계 및 개발</li>
+      <li>모델 학습을 위한 데이터 라벨링 설계</li>
+    </ul>
+  </li>
+  <li>적용 알고리즘 설계
+    <ul>
+      <li>Object Detection 모델과 Re-identification 모델을 결합하여 통합 end-to-end 모델 개발</li>
+      <li>학습 효율성 증대 및 추론속도 개선하는 것을 목표로 개발 진행 중</li>
+    </ul>
+  </li>
+  <li>성과
+    <ul>
+      <li>아이디어 기획 및 알고리즘 개발</li>
+      <li>실제 현장 데이터를 활용하여 실증 기회 확보
+     * 사용 framework : Pytorch 
+     * 참여 및 기여 : 100%</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="202002202012여러-각도에서-촬영된-영상-내-객체-인식-및-동일-객체-추정-모델-개발">[2020.02~2020.12]여러 각도에서 촬영된 영상 내 객체 인식 및 동일 객체 추정 모델 개발</h3>
+<ol>
+  <li>아이디어
+    <ul>
+      <li>다각도에서 촬영된 영상 내에서 동일 객체 여부를 판단하기 위한 기능 개발</li>
+    </ul>
+  </li>
+  <li>개발 내용
+    <ul>
+      <li>영상 내 객체 정보 추출 기능 개발</li>
+      <li>추출된 객체간 특징 비교 기능 개발</li>
+    </ul>
+  </li>
+  <li>적용 알고리즘 설계
+    <ul>
+      <li>기존의 객체 인식 모델이 가진 처리속도문제를 해결하기위해 One-Stage 계열 모델 개발 및 도입</li>
+      <li>Batch Hard mining을 도입하여 기존 모델의 문제점 해결, 학습 속도 개선</li>
+      <li>Object Detection 모델~Re-Identification 모델 추론과정 통합</li>
+    </ul>
+  </li>
+  <li>성과
+    <ul>
+      <li>분리된 두 모델의 통합추론의 한계점 확인, 추가적인 고도화 연구 필요성 인지</li>
+      <li>온전히 Tensorflow만으로 input pipeline 및 모델 구성
+     * 사용 framework : Tensorflow 
+     * 참여 및 기여 : 100%</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="202001202012객체-인식-모델의-자가-학습-프로세스-및-모듈-개발">[2020.01~2020.12]객체 인식 모델의 자가 학습 프로세스 및 모듈 개발</h3>
+<ol>
+  <li>아이디어
+    <ul>
+      <li>실제 현장 데이터 확보의 어려움으로 인한 딥러닝 모델 성능 향상 한계</li>
+      <li>제약적인 데이터를 활용하여 기초 성능 확보할 수 있는 방법 구상</li>
+      <li>추가 데이터 라벨링에 대한 노력을 최소화할 수 있는 방법 필요성 증대</li>
+    </ul>
+  </li>
+  <li>개발 내용
+    <ul>
+      <li>자가 학습 프로세스 설계 및 모듈 개발</li>
+    </ul>
+  </li>
+  <li>적용 알고리즘 설계
+    <ul>
+      <li>Semi Supervised Learning 및 Teacher-Student Learning을 적용한 self-training 프로세스 및 모듈 개발</li>
+      <li>일반화 성능의 향상을 위해 noisy 기법 적용</li>
+    </ul>
+  </li>
+  <li>성과
+    <ul>
+      <li>특허 출원 1건, 실제 현장 테스트 진행 완료
+     * 사용 framework : Tensorflow 
+     * 참여 및 기여 : 70%</li>
+    </ul>
+  </li>
+</ol>
+
 
   </div>
 
