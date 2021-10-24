@@ -4,14 +4,15 @@ title: About Me
 permalink: /about/
 ---
 
-## 3년차 Machine Learning Engineer입니다!
-1. 현재 Computer Vision(Object Detection, Tracking)분야에서 딥러닝 모델 설계 및 개발하고 있습니다.
-2. 딥러닝 모델 개발은 주로 Tensorflow를 사용했으나, 최근에는 Pytorch를 사용하고 있습니다.
-3. Learning Curve 향상에 관심이 많고, 백엔드 쪽으로도 관심이 생겨 공부하고 있습니다!
-4. 주 언어는 Python이고, 비동기 처리/동시성 확보 등 효율적이고 clean한 코드 작성하는데 항상 고민합니다:)
+### 매일 발전하는 Machine Learning Engineer입니다!
+1. 현재 2D Pose Estimation 모델 Architecture 설계 및 개발하고 있습니다.
+2. 이전에는 Object Detection, Tracking분야 딥러닝 모델 설계 및 개발한 경험이 있습니다.
+3. Tensorflow, Pytorch를 주로 활용하여 모델 개발을 하고 있습니다.
+4. 늘 Learning Curve 향상을 고민하고 있으며, 코드를 깔끔하고 가독성 좋게 구성하는 것에 관심이 많습니다.
+5. 최근에는 서비스를 배포하기 위한 ML Pipeline 설계에 관심을 가지고 공부하고 있습니다.
 
-## 주요 연구/프로젝트 수행이력
-### [2021.01~ing]Target의 동선을 추적하기 위한 객체 추적 기술 개발 업무
+#### 주요 연구/프로젝트 수행이력
+##### [2021.01~2021.09]Target의 동선을 추적하기 위한 객체 추적 기술 개발 업무
 1.  아이디어
    - 실종인원 수색의 효율성 증대를 위한 딥러닝 모델 도입(이동 경로 자동 추적)
 2. 개발 내용
@@ -27,7 +28,7 @@ permalink: /about/
 * 사용 framework : Pytorch 
 * 참여 및 기여 : 100%
 
-### [2020.02~2020.12]여러 각도에서 촬영된 영상 내 객체 인식 및 동일 객체 추정 모델 개발
+##### [2020.02~2020.12]여러 각도에서 촬영된 영상 내 객체 인식 및 동일 객체 추정 모델 개발
 1.  아이디어
    - 다각도에서 촬영된 영상 내에서 동일 객체 여부를 판단하기 위한 기능 개발
 2.  개발 내용
@@ -43,7 +44,7 @@ permalink: /about/
 * 사용 framework : Tensorflow 
 * 참여 및 기여 : 100%
 
-### [2020.01~2020.12]객체 인식 모델의 자가 학습 프로세스 및 모듈 개발
+##### [2020.01~2020.12]객체 인식 모델의 자가 학습 프로세스 및 모듈 개발
 1. 아이디어
    - 실제 현장 데이터 확보의 어려움으로 인한 딥러닝 모델 성능 향상 한계
    - 제약적인 데이터를 활용하여 기초 성능 확보할 수 있는 방법 구상
@@ -54,7 +55,7 @@ permalink: /about/
    - Semi Supervised Learning 및 Teacher-Student Learning을 적용한 self-training 프로세스 및 모듈 개발
    - 일반화 성능의 향상을 위해 noisy 기법 적용
 4. 성과
-   - 특허 출원 1건, 실제 현장 테스트 진행 완료
+   - 특허 등록 1건, 실제 현장 테스트 진행 완료
 * 사용 framework : Tensorflow 
 * 참여 및 기여 : 70%
 
