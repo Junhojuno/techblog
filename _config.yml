@@ -40,7 +40,7 @@ baseurl: "/techblog" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     twitter: fastdotai
-    github: "https://github.com/Junhojuno"
+    github: Junhojuno
 
 # Set this to true to get LaTeX math equation support
 use_math: 
