@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: 김준호 | ML Engineer
 permalink: /about/
 ---
 
