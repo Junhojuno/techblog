@@ -423,6 +423,8 @@ table th { text-align: center !important; }
 
 pre code { font-size: 15px !important; }
 
+@font-face { font-family: 'RIDIBatang'; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff") format("woff"); font-weight: normal; font-style: normal; }
+
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
